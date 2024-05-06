@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de computadoras a reparar</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Tecno SIAN soluciones informáticas</h1>
+    
+        <h2> Ingreso de computadoras a reparar </h2>
+
+        <form id="computadoraForm">
+            <label for="nombreCliente">Nombre del Cliente:</label><br>
+            <input type="text" id="nombreCliente" name="nombreCliente"><br>
+            <label for="contraseñaWindows">Contraseña Windows:</label><br>
+            <input type="password" id="contraseñaWindows" name="contraseñaWindows"><br>
+            <label for="tarea">Tarea a realizar:</label><br>
+            <input type="text" id="tarea" name="tarea"><br>
+            <label for="presupuesto">Presupuesto:</label><br>
+            <input type="number" id="presupuesto" name="presupuesto"><br>
+            <label for="precioComponentes">Precio de los Componentes:</label><br>
+            <input type="number" id="precioComponentes" name="precioComponentes"><br><br>
+            <button type="submit">Ingresar Computadora</button>
+        </form>
+        
+        <button id="mostrarBtn">Mostrar Información</button>
+        <button id="mostrarGananciasBtn">Mostrar Ganancias</button>
+        <button id="mostrarClientesBtn">Mostrar Listado de Clientes</button>
+
+
+        <div class="info-container"></div>
+
+        <section id="contenido" class="contenido prueba">
+        <div class="col" id="clientesContainer">
+            <h2 id="titulo">Listado de Clientes</h2>
+            <ul id="lista-clientes">
+                <!-- aca las cositas de la api local muestra lo del cliente.js que le pega a mi clientes.json-->
+            </ul>
+        </div>
+        </section>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/clientes.js"></script>
+</body>
+</html>

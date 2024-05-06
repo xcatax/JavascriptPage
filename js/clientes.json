@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,  
+      "nombreCliente": "Cata",
+      "tarea": "Reparación de hardware"
+    },
+    {
+      "id": 2,
+      "nombreCliente": "Liz",
+      "tarea": "Reparación de software"
+    },
+    {
+      "id": 3,
+      "nombreCliente": "Pollo",
+      "tarea": "Actualización de software"
+    },
+    {
+      "id": 4,
+      "nombreCliente": "Juan",
+      "tarea": "Limpieza de virus"
+    },
+    {
+      "id": 5,
+      "nombreCliente": "María",
+      "tarea": "Reemplazo de disco duro"
+    }
+]
